@@ -126,7 +126,7 @@ body.page-is-changing::after, body.page-is-changing::before {
 
 main {
   height: 100vh;
-  padding: 10px;
+  /* padding: 10px; */
   text-align: center;
 }
 main .cd-main-content {
@@ -206,6 +206,8 @@ main p {
   main {
     padding: 0px;
   }
+
+
 
   main.cd-home > div {
     padding-top: 200px;
