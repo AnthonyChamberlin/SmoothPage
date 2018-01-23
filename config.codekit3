@@ -16,6 +16,14 @@
 		"oAP": "\/about.html",
 		"oF": 0
 		},
+	"\/composer.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/composer-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/css\/reset.css": {
 		"aP": 1,
 		"bl": 0,
@@ -46,11 +54,18 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"\/index.html": {
+	"\/home.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/index.html",
+		"oAP": "\/home.html",
+		"oF": 0
+		},
+	"\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/index.php",
 		"oF": 0
 		},
 	"\/js\/jquery-2.1.1.js": {

@@ -46,7 +46,7 @@ jQuery(document).ready(function(event){
 	}
 
 	function loadNewContent(url, bool) {
-		url = ('' == url) ? 'index.html' : url;
+		url = ('' == url) ? 'home.html' : url;
   	var newSection = 'cd-'+url.replace('.html', '');
   	var section = $('<div class="cd-main-content '+newSection+'"></div>');
 
