@@ -254,8 +254,8 @@ main p {
 }
 @media only screen and (min-width: 768px) {
   .cd-cover-layer {
-    height: calc(100% - 40px);
-    width: calc(100% - 40px);
+    height: calc(100%);
+    width: calc(100%);
   }
 }
 
@@ -343,6 +343,6 @@ main p {
 }
 @media only screen and (min-width: 768px) {
   .cd-loading-bar {
-    width: calc(100% - 40px);
+    width: calc(100%);
   }
 }
