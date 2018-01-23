@@ -153,24 +153,24 @@ main .cd-main-content::before {
 main .cd-main-content::after {
   bottom: 0;
 }
-main .cd-main-content.cd-index {
+main .cd-main-content.cd-home {
   /* .cd-main-content basic style - index page */
   background-color: #333333;
   /* vertically center its content */
   display: table;
   width: 100%;
 }
-main .cd-main-content.cd-index > div {
-  /* vertically center the content inside the .cd-index */
+main .cd-main-content.cd-home > div {
+  /* vertically center the content inside the .cd-home */
   display: table-cell;
   vertical-align: middle;
 }
-main .cd-main-content.cd-index::after {
+main .cd-main-content.cd-home::after {
   background-color: rgba(64, 137, 166, 0);
   background-image: -webkit-linear-gradient(bottom, #333333, rgba(64, 137, 166, 0));
   background-image: linear-gradient(to top,#333333, rgba(64, 137, 166, 0));
 }
-main .cd-main-content.cd-index::before {
+main .cd-main-content.cd-home::before {
   background-color: rgba(64, 137, 166, 0);
   background-image: -webkit-linear-gradient(top, #333333, rgba(64, 137, 166, 0));
   background-image: linear-gradient(to bottom,#333333, rgba(64, 137, 166, 0));
@@ -209,10 +209,10 @@ main p {
   main .cd-main-content {
     height: calc(100vh - 0px);
   }
-  main.cd-index > div {
+  main.cd-home > div {
     padding-top: 200px;
   }
-  main.cd-index > div {
+  main.cd-home > div {
     padding-top: 50px;
   }
   main p {
