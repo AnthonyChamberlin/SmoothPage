@@ -1,26 +1,34 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" class="no-js">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>SmoothPage Transition</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+
+	<title>Animated Page Transition | CodyHouse</title>
 </head>
 <body>
+<main>
+	<div class="cd-index cd-main-content">
+		<div>
+			<h1>SmoothPage</h1>
+      <h4>Animated Transitions with jQuery and AJAX.</h4>
 
-  <main>
-    <div class="cd-index cd-main-content">
-      <div>
-        <h1>Page Content</h1>
-      </div>
-    </div>
-  </main>
+			<a class="cd-btn" href="contact.html" data-type="page-transition">Left Slide</a>
+      <a class="cd-btn" href="about.html" data-type="page-transition">Slam and Load</a>
+      <a class="cd-btn" href="skills.html" data-type="page-transition">Right Slide</a>
+		</div>
+	</div>
+</main>
 
-  <div class="cd-cover-layer"></div>
-  <div class="cd-loading-bar"></div>
-
-  <script src="js/main.js"></script>
+<div class="cd-cover-layer"></div>
+<div class="cd-loading-bar"></div>
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
 </body>
 </html>
