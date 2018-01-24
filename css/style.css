@@ -209,7 +209,7 @@ main p {
 
 
 .cd-loading-bar {
-  /* this is the loding bar - visible while switching from one page to the following one */
+  /* this is the loading bar - visible while switching from one page to the following one */
   position: fixed;
   z-index: 2;
   left: 50%;
@@ -298,7 +298,7 @@ FOR VERTICAL CSS TRANSITION
   background-color: rgba(48, 255, 217, 0.2);
 }
 
-.cd-vertical::before {
+body::before {
   top: 0;
   -webkit-transform: translateY(-100%);
   -moz-transform: translateY(-100%);
@@ -306,7 +306,7 @@ FOR VERTICAL CSS TRANSITION
   -o-transform: translateY(-100%);
   transform: translateY(-100%);
 }
-.cd-vertical::after {
+body::after {
   bottom: 0;
   -webkit-transform: translateY(100%);
   -moz-transform: translateY(100%);
