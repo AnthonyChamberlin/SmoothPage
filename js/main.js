@@ -4,12 +4,12 @@ jQuery(document).ready(function(event){
     firstLoad = false;
 
   //trigger smooth transition from the actual page to the new one
-  $('main').on('click', '[data-type="page-transition"]', function(event){
+  $('main').on('click', '[data-type="vertical-page-transition"]', function(event){
     event.preventDefault();
     //detect which page has been selected
     var newPage = $(this).attr('href');
     //if the page is not already being animated - trigger animation
-    if( !isAnimating ) changePage(newPage, true);
+    if( !isAnimating ) verticalPageChange(newPage, true);
     firstLoad = true;
   });
 
@@ -24,12 +24,12 @@ jQuery(document).ready(function(event){
         //this is the url of the page to be loaded
         newPage = newPageArray[newPageArray.length - 1];
 
-      if( !isAnimating  &&  newLocation != newPage ) changePage(newPage, false);
+      if( !isAnimating  &&  newLocation != newPage ) verticalPageChange(newPage, false);
     }
     firstLoad = true;
 	});
 
-	function changePage(url, bool) {
+	function verticalPageChange(url, bool) {
     isAnimating = true;
     // trigger page animation
     $('.vertical-slide').addClass('page-is-changing');
