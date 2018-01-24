@@ -54,6 +54,13 @@
 		"oAP": "\/home.html",
 		"oF": 0
 		},
+	"\/horizontal.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/horizontal.html",
+		"oF": 0
+		},
 	"\/index.php": {
 		"cB": 0,
 		"ft": 8192,
