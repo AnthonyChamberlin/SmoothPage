@@ -314,7 +314,7 @@ body::after {
   -o-transform: translateY(100%);
   transform: translateY(100%);
 }
-.cd-vertical.page-is-changing::after, .cd-vertical.page-is-changing::before {
+body.page-is-changing::after, body.page-is-changing::before {
   -webkit-transform: translateY(0);
   -moz-transform: translateY(0);
   -ms-transform: translateY(0);
