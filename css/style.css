@@ -67,7 +67,7 @@ Patterns - reusable parts of our design
   background-color: rgba(48, 255, 217, 0.2);
   transition: .5s;
 }
-.cd-horizontal .cd-btn {
+.cd-vertical .cd-btn {
   background-color: rgba(48, 255, 217, 0.2);
 }
 
@@ -175,19 +175,19 @@ main .cd-main-content.cd-home::before {
   background-image: -webkit-linear-gradient(top, #333333, rgba(64, 137, 166, 0));
   background-image: linear-gradient(to bottom,#333333, rgba(64, 137, 166, 0));
 }
-main .cd-main-content.cd-horizontal {
+main .cd-main-content.cd-vertical {
   /* .cd-main-content basic style - vertical page */
   background-color: #00b2a3;
 }
-main .cd-main-content.cd-horizontal > div {
+main .cd-main-content.cd-vertical > div {
   padding-top: 50px;
 }
-main .cd-main-content.cd-horizontal::after {
+main .cd-main-content.cd-vertical::after {
   background-color: rgba(40, 48, 64, 0);
   background-image: -webkit-linear-gradient(bottom, #00b2a3, rgba(40, 48, 64, 0));
   background-image: linear-gradient(to top,#00b2a3, rgba(40, 48, 64, 0));
 }
-main .cd-main-content.cd-horizontal::before {
+main .cd-main-content.cd-vertical::before {
   background-color: rgba(40, 48, 64, 0);
   background-image: -webkit-linear-gradient(top, #00b2a3, rgba(40, 48, 64, 0));
   background-image: linear-gradient(to bottom,#00b2a3, rgba(40, 48, 64, 0));
@@ -242,7 +242,7 @@ main p {
   -moz-transition: opacity 0.4s 0.4s, visibility 0s 0.8s;
   transition: opacity 0.4s 0.4s, visibility 0s 0.8s;
 }
-.cd-horizontal .cd-cover-layer {
+.cd-vertical .cd-cover-layer {
   background-color: #00b2a3;
 }
 .page-is-changing .cd-cover-layer {
@@ -281,10 +281,10 @@ main p {
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
 }
-.cd-horizontal .cd-loading-bar {
+.cd-vertical .cd-loading-bar {
   background-color: rgba(48, 255, 217, 0.9);
 }
-.cd-horizontal .cd-loading-bar::before {
+.cd-vertical .cd-loading-bar::before {
   background-color: #333333;
 }
 .cd-loading-bar::before {
