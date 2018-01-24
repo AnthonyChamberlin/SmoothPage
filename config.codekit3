@@ -68,6 +68,16 @@
 		"oAP": "\/index.php",
 		"oF": 0
 		},
+	"\/js\/horizontal.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/horizontal-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/js\/jquery-2.1.1.js": {
 		"ft": 64,
 		"ma": 0,
@@ -78,32 +88,32 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"\/js\/main-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/main-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/js\/main.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/main-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"\/js\/modernizr.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/modernizr-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/vertical-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/vertical-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/vertical.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/vertical-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
