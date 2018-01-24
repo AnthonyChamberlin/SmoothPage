@@ -32,7 +32,6 @@ jQuery(document).ready(function(event){
 	function horizontalPageChange(url, bool) {
     isAnimating = true;
     // trigger page animation
-    $('body').addClass('horizontal-slide');
     $('.horizontal-slide').addClass('page-is-changing');
     $('.cd-loading-bar').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
     	loadNewContent(url, bool);
@@ -62,7 +61,6 @@ jQuery(document).ready(function(event){
           //wait for the end of the transition on the loading bar before revealing the new content
           ( section.hasClass('cd-horizontal') ) ? $('body').addClass('cd-horizontal') : $('body').removeClass('cd-horizontal');
           $('body').removeClass('page-is-changing');
-          $('body').removeClass('horizontal-slide');
           $('.cd-loading-bar').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
             isAnimating = false;
             $('.cd-loading-bar').off('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend');
