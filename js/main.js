@@ -34,6 +34,7 @@ jQuery(document).ready(function(event){
         newPage = newPageArray[newPageArray.length - 1];
 
       if( !isAnimating  &&  newLocation != newPage ) verticalPageChange(newPage, false);
+      if( !isAnimating  &&  newLocation != newPage ) horizontalPageChange(newPage, false);
     }
     firstLoad = true;
 	});
