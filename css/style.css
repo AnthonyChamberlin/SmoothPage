@@ -98,35 +98,6 @@ body::after, body::before {
   transition: transform 0.4s 0.4s;
 }
 
-/* ----- Vertical Stuff ----- */
-
-.vertical-slide::before {
-  top: 0;
-  -webkit-transform: translateY(-100%);
-  -moz-transform: translateY(-100%);
-  -ms-transform: translateY(-100%);
-  -o-transform: translateY(-100%);
-  transform: translateY(-100%);
-}
-.vertical-slide::after {
-  bottom: 0;
-  -webkit-transform: translateY(100%);
-  -moz-transform: translateY(100%);
-  -ms-transform: translateY(100%);
-  -o-transform: translateY(100%);
-  transform: translateY(100%);
-}
-.vertical-slide.page-is-changing::after, .vertical-slide.page-is-changing::before {
-  -webkit-transform: translateY(0);
-  -moz-transform: translateY(0);
-  -ms-transform: translateY(0);
-  -o-transform: translateY(0);
-  transform: translateY(0);
-  -webkit-transition: -webkit-transform 0.4s 0s;
-  -moz-transition: -moz-transform 0.4s 0s;
-  transition: transform 0.4s 0s;
-}
-
 /* ----- Horizontal Stuff ----- */
 
 .horizontal-slide::before {
@@ -151,6 +122,35 @@ body::after, body::before {
   -ms-transform: translateX(0);
   -o-transform: translateX(0);
   transform: translateX(0);
+  -webkit-transition: -webkit-transform 0.4s 0s;
+  -moz-transition: -moz-transform 0.4s 0s;
+  transition: transform 0.4s 0s;
+}
+
+/* ----- Vertical Stuff ----- */
+
+.vertical-slide::before {
+  top: 0;
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -o-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+.vertical-slide::after {
+  bottom: 0;
+  -webkit-transform: translateY(100%);
+  -moz-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  -o-transform: translateY(100%);
+  transform: translateY(100%);
+}
+.vertical-slide.page-is-changing::after, .vertical-slide.page-is-changing::before {
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0);
   -webkit-transition: -webkit-transform 0.4s 0s;
   -moz-transition: -moz-transform 0.4s 0s;
   transition: transform 0.4s 0s;
