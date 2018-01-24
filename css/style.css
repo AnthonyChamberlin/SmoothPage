@@ -131,7 +131,7 @@ main {
 }
 main .cd-main-content {
   position: relative;
-  height: calc(100vh - 20px);
+  height: 100vh;
 }
 main .cd-main-content > div {
   height: 100%;
