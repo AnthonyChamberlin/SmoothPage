@@ -57,7 +57,7 @@ jQuery(document).ready(function(event){
       var delay = ( transitionsSupported() ) ? 1400 : 0;
       setTimeout(function(){
         //wait for the end of the transition on the loading bar before revealing the new content
-        ( section.hasClass('cd-about') ) ? $('body').addClass('cd-about') : $('body').removeClass('cd-about');
+        ( section.hasClass('cd-vertical') ) ? $('body').addClass('cd-vertical') : $('body').removeClass('cd-vertical');
         $('body').removeClass('page-is-changing');
         $('.cd-loading-bar').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
           isAnimating = false;

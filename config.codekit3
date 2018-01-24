@@ -9,13 +9,6 @@
 	],
 "creatorBuild": "26148",
 "files": {
-	"\/about.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/about.html",
-		"oF": 0
-		},
 	"\/composer.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -125,6 +118,13 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/vertical.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/vertical.html",
+		"oF": 0
 		}
 	},
 "hooks": [
