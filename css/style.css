@@ -285,3 +285,135 @@ main p {
   -moz-transition: -moz-transform 0.8s 0.8s ease-in;
   transition: transform 0.8s 0.8s ease-in;
 }
+
+
+/* --------------------------------
+
+FOR VERTICAL CSS TRANSITION
+
+-------------------------------- */
+
+
+.cd-vertical .cd-btn {
+  background-color: rgba(48, 255, 217, 0.2);
+}
+
+.vertical-slide::before {
+  top: 0;
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -o-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+.vertical-slide::after {
+  bottom: 0;
+  -webkit-transform: translateY(100%);
+  -moz-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  -o-transform: translateY(100%);
+  transform: translateY(100%);
+}
+.vertical-slide.page-is-changing::after, .vertical-slide.page-is-changing::before {
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transition: -webkit-transform 0.4s 0s;
+  -moz-transition: -moz-transform 0.4s 0s;
+  transition: transform 0.4s 0s;
+}
+
+main .cd-main-content.cd-vertical {
+  /* .cd-main-content basic style - vertical page */
+  background-color: #00b2a3;
+}
+main .cd-main-content.cd-vertical > div {
+  padding-top: 50px;
+}
+main .cd-main-content.cd-vertical::after {
+  background-color: rgba(40, 48, 64, 0);
+  background-image: -webkit-linear-gradient(bottom, #00b2a3, rgba(40, 48, 64, 0));
+  background-image: linear-gradient(to top,#00b2a3, rgba(40, 48, 64, 0));
+}
+main .cd-main-content.cd-vertical::before {
+  background-color: rgba(40, 48, 64, 0);
+  background-image: -webkit-linear-gradient(top, #00b2a3, rgba(40, 48, 64, 0));
+  background-image: linear-gradient(to bottom,#00b2a3, rgba(40, 48, 64, 0));
+}
+
+.cd-vertical .cd-cover-layer {
+  background-color: #00b2a3;
+}
+
+.cd-vertical .cd-loading-bar {
+  background-color: rgba(48, 255, 217, 0.9);
+}
+.cd-vertical .cd-loading-bar::before {
+  background-color: #333333;
+}
+
+
+/* --------------------------------
+
+FOR HORIZONTAL CSS TRANSITION
+
+-------------------------------- */
+
+
+.horizontal-slide::before {
+  top: 0;
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+.horizontal-slide::after {
+  bottom: 0;
+  -webkit-transform: translateX(100%);
+  -moz-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  -o-transform: translateX(100%);
+  transform: translateX(100%);
+}
+.horizontal-slide.page-is-changing::after, .horizontal-slide.page-is-changing::before {
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  transform: translateX(0);
+  -webkit-transition: -webkit-transform 0.4s 0s;
+  -moz-transition: -moz-transform 0.4s 0s;
+  transition: transform 0.4s 0s;
+}
+
+main .cd-main-content.cd-horizontal {
+  /* .cd-main-content basic style - horizontal page */
+  background-color: #00b2a3;
+}
+main .cd-main-content.cd-horizontal > div {
+  padding-top: 50px;
+}
+main .cd-main-content.cd-horizontal::after {
+  background-color: rgba(40, 48, 64, 0);
+  background-image: -webkit-linear-gradient(bottom, #00b2a3, rgba(40, 48, 64, 0));
+  background-image: linear-gradient(to top,#00b2a3, rgba(40, 48, 64, 0));
+}
+main .cd-main-content.cd-horizontal::before {
+  background-color: rgba(40, 48, 64, 0);
+  background-image: -webkit-linear-gradient(top, #00b2a3, rgba(40, 48, 64, 0));
+  background-image: linear-gradient(to bottom,#00b2a3, rgba(40, 48, 64, 0));
+}
+
+.cd-horizontal .cd-cover-layer {
+  background-color: #00b2a3;
+}
+
+.cd-horizontal .cd-loading-bar {
+  background-color: rgba(48, 255, 217, 0.9);
+}
+.cd-horizontal .cd-loading-bar::before {
+  background-color: #333333;
+}

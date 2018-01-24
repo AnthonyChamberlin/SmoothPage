@@ -17,16 +17,6 @@
 		"oO": 0,
 		"oS": 1
 		},
-	"\/css\/horizontal.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/horizontal-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"\/css\/reset.css": {
 		"aP": 1,
 		"bl": 0,
@@ -54,16 +44,6 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/css\/style-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/css\/vertical.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/vertical-min.css",
 		"oF": 0,
 		"oS": 3
 		},

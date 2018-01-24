@@ -32,7 +32,7 @@ jQuery(document).ready(function(event){
 	function horizontalPageChange(url, bool) {
     isAnimating = true;
     // trigger page animation
-    $('.horizontal-slide').addClass('page-is-changing');
+    $('body').addClass('page-is-changing');
     $('.cd-loading-bar').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
     	loadNewContent(url, bool);
       newLocation = url;
