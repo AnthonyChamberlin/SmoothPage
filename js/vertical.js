@@ -32,6 +32,7 @@ jQuery(document).ready(function(event){
 	function verticalPageChange(url, bool) {
     isAnimating = true;
     // trigger page animation
+    $('body').addClass('vertical-slide');
     $('.vertical-slide').addClass('page-is-changing');
     $('.cd-loading-bar').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
     	loadNewContent(url, bool);
@@ -61,6 +62,7 @@ jQuery(document).ready(function(event){
           //wait for the end of the transition on the loading bar before revealing the new content
           ( section.hasClass('cd-vertical') ) ? $('body').addClass('cd-vertical') : $('body').removeClass('cd-vertical');
           $('body').removeClass('page-is-changing');
+          $('body').removeClass('vertical-slide');
           $('.cd-loading-bar').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
             isAnimating = false;
             $('.cd-loading-bar').off('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend');
